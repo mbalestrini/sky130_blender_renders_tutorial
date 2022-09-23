@@ -11,14 +11,14 @@ https://github.com/mbalestrini/gdsiistl
 
 ---
 
-## Quick Steps ?
+## Overview ?
 
 
 ![](docs/process_overview.png)
 
 ## Detailed Steps
 
-Have the .gds file ready?
+? Have the .gds file ready
 
 Clone gdsiistl: 
 `git clone https://github.com/mbalestrini/gdsiistl`
@@ -42,10 +42,11 @@ Create the blender project:
     Save As ...
     Import Layers: 
         Import STL 
-            Set scale ( 1.0 ) ?
+            ? Set scale = 1.0 (so blender units represent microns)
         Create material 
         Move Layer vertically
-        Example of scaling some layer/s
+        Scale layer vertically if you want different layer heights
+        >>> Example of scaling some layer/s
 
     Change Render Engine to Cycles
     Show how to change viewport shading style
